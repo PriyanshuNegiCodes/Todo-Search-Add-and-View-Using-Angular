@@ -14,7 +14,7 @@ export class NoteViewComponent {
     if(searchdata==""){
       this.recieveDataList=NOTE;
     }else{
-      this.recieveDataList = NOTE.filter(x => x.title?.startsWith(searchdata));
+      this.recieveDataList = NOTE.filter(x => x.title==searchdata);
       searchdata=""
     }
    

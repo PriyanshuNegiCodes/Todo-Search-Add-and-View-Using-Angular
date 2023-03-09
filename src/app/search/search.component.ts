@@ -11,6 +11,7 @@ export class SearchComponent {
   eventObj=new EventEmitter();
 
   searchNote="";
+  
   searchButtonText="Search";
   search(){
      this.eventObj.emit(this.searchNote);
