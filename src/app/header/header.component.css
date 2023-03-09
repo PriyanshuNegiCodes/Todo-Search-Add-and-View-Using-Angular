@@ -1,8 +1,16 @@
-.navWord{
+/* .navWord{
     font-size: 25px;
     color: white;
 }
 
 .backCol{
     background-color: blue;
-}
+} */
+
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  mat-icon {
+    margin-right: 10px;
+  }
