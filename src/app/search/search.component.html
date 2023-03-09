@@ -1,4 +1,14 @@
-<div class="input-group mb-3">
+<!-- <div class="input-group mb-3">
     <input type="text" class="form-control" placeholder="Search note" [(ngModel)]="searchNote">
     <button class="btn btn-primary" (click)="search()">{{ searchButtonText }}</button>
+</div> -->
+
+
+<div id ="search">
+    <mat-form-field >
+        <input matInput type="text" placeholder="Search  Note" [(ngModel)]="searchNote">
+        <button mat-button matSuffix>
+          <mat-icon type="button" class="btn btn-primary" (click)="search()">search</mat-icon>
+        </button>
+      </mat-form-field>
 </div>
